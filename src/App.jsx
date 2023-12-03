@@ -3,7 +3,7 @@ import {
   redirect,
   RouterProvider,
 } from "react-router-dom";
-import { Layout } from "./components/layout";
+import { Layout } from "./components/Layout";
 import { Home } from "./pages/Home";
 import { Signup } from "./pages/Signup";
 import { Login } from "./pages/Login";
@@ -94,7 +94,7 @@ const router = createBrowserRouter([
 export default function App() {
   return (
     <UserContextProvider>
-      <RouterProvider router={router}/>
+      <RouterProvider router={router} />
     </UserContextProvider>
   );
 }
